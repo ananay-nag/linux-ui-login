@@ -7,7 +7,7 @@ export default function App() {
       <div className="main-frame" id="main-frame">
         <div className="header-bar">
           <div className="title-bar">
-            <div className="title">Welcome To Linux UI Form</div>
+            <div className="title">Welcome To Linux Form</div>
             <div className="bar-actions">
               <div className="action minimize"></div>
               <div className="action close"></div>
@@ -41,6 +41,7 @@ export default function App() {
           </div>
         </div>
       </div>
+      <div class="owner">Made with ❤️ from ananay nag</div>
     </div>
   );
 }
