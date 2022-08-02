@@ -54,7 +54,7 @@ function parseCommand(cmd) {
     case "user --help":
       return HelpController();
     default:
-      return `<div class="c-ffffff"><pre>Type user --help for more information</pre></div>`;
+      return `<div class="c-ffffff"><pre>Type "user --help" for more information</pre></div>`;
   }
 }
 
